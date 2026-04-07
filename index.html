@@ -217,6 +217,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      width: 100%;
     }
 
     .ebook-images img {
@@ -233,7 +234,7 @@
 
     .ebook-content {
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: minmax(0, 1fr) minmax(320px, 520px);
       gap: 60px;
       align-items: center;
     }
@@ -358,7 +359,7 @@
       </div>
 
       <div class="hero-image">
-        <img src="images/capa-pdf.png" alt="Capa do PDF Kubernetes">
+        <img src="images/capa-pdf.jpg" alt="Capa do PDF Kubernetes">
       </div>
     </div>
   </section>
@@ -421,7 +422,7 @@
       </div>
 
       <div class="ebook-images">
-        <img src="images/capa-ebook.png" alt="Capa Ebook">
+        <img src="images/capa-ebook.jpg" alt="Capa Ebook">
       </div>
     </div>
   </section>
